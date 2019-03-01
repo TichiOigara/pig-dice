@@ -1,0 +1,38 @@
+/*#ffa8b6
+to blend with: 1. shades of grey 2. color:#333
+*/
+body{
+  background-color: #ffa8b6;
+}
+.container{
+  margin:0;
+  width:100%;
+  max-width:100%;
+  padding:0;
+}
+
+#header{
+  color:#ffa8b6;
+  width:100%;
+  background-color: #333;
+  margin:0;
+  padding-right:0;
+}
+#header h1{
+  text-transform: uppercase;
+  text-align:right;
+}
+#header h2{
+  font-style: italic;
+  text-align:right;
+}
+
+#pigIcon{
+  width:80%;
+  display:block;
+  margin:auto;
+
+}
+#gameSection{
+  width:100%;
+}
