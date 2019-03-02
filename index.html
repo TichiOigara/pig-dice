@@ -11,30 +11,46 @@
 </head>
 
 <body>
-<div class="container">
-<div class="row jumbotron " id="header">
-  <div class="col-md-9 " >
-    <h1>Pig Dice</h1>
-    <h2>Welcome to the pig dice game.</h2>
-  </div>
-  <div class="col-md-3">
-    <img id="pigIcon" src="img/image1.png" alt="pig-dice-icon">
-  </div>
-</div>
-<div class="row" id="gameSection">
-  <div class="col-md-4" id="rules">
+  <div class="container">
+    <div class="row jumbotron " id="header">
+      <div class="col-md-7 ">
+        <h1>Pig Dice</h1>
+        <h2>Welcome to the pig dice game.</h2>
+      </div>
+      <div class="col-md-2">
+        <img id="pigIcon" src="img/image1.png" alt="pig-dice-icon">
+      </div>
+      <div class="col-md-3">
 
-  </div>
-  <div class="col-md-4 gamePlay" >
-    <h4>Player 1</h4>
-    <h1 class="TotalResult1">0</h1>
-    <h2 class="roundResult">0</h2>
-  </div>
-  <div class="col-md-4 gamePlay">
+      </div>
+    </div>
+    <div class="row" id="gameSection">
+      <div class="col-md-4" id="rules">
+        <div class="card">
+          <div class="card-header" id="diceRules">
+            <h3>PIG DICE RULES</h3>
+          </div>
+          <div class="card-body" id="diceRulesBody">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">In each turn, a player rolls a dice until a 1 is rolled or player decides to hold and pass their turn</li>
+              <li class="list-group-item">The number rolled is added to the temporary score unless a player rolls 1.</li>
+              <li class="list-group-item">If the player rolls a 1, he or she loses their temporary score and the turn is passed to the other player.</li>
+              <li class="list-group-item">The temproray score is added to the results when the user decides to pass their turn to the next player.</li>
+              <li class="list-group-item">The first player to gain 100 points is the winner.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 gamePlay">
 
+      </div>
+      <div class="col-md-4 gamePlay">
+        <h4>Player 1</h4>
+        <h1 class="TotalResult1">0</h1>
+        <h2 class="roundResult">0</h2>
+      </div>
+    </div>
   </div>
-</div>
-</div>
 </body>
 
 </html>
