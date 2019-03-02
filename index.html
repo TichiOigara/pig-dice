@@ -12,22 +12,22 @@
 
 <body>
   <div class="container">
-    <div class="row jumbotron " id="header">
+    <div class="row jumbotron jumbotron-fluid" id="header">
       <div class="col-md-7 ">
         <h1>Pig Dice</h1>
         <h2>Welcome to the pig dice game.</h2>
       </div>
       <div class="col-md-2">
-        <img id="pigIcon" src="img/image1.png" alt="pig-dice-icon">
+        <img id="pigIcon" src="images/image1.png" alt="pig-dice-icon">
       </div>
       <div class="col-md-3">
 
       </div>
     </div>
     <div class="row" id="gameSection">
-      <div class="col-md-4" id="rules">
+      <div class="col-md-3 " id="rules">
         <div class="card">
-          <div class="card-header" id="diceRules">
+          <div class="card-header diceRules">
             <h3>PIG DICE RULES</h3>
           </div>
           <div class="card-body" id="diceRulesBody">
@@ -39,16 +39,47 @@
               <li class="list-group-item">The first player to gain 100 points is the winner.</li>
             </ul>
           </div>
+          <div class="card-footer diceRules" id="diceFooter">
+            <h3><a href="">PLAY GAME</a></h3>
+          </div>
         </div>
       </div>
       <div class="col-md-4 gamePlay">
-
+        <div class="card ">
+          <div class="card-body">
+            <h1>PLAYER 1</h1>
+            <h1 class="totalResult" id="totalResult1">0</h1>
+          </div>
+          <img class="playerImg" src="images/player1.png" alt="Card image">
+          <div class="card-body">
+            <h2>TEMPORARY SCORE</h2>
+            <h2 class="roundResult" id="roundResult1">0</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1" >
+          <div class="d-flex flex-column align-items-center justify-content-center" id="gameBtns">
+            <h1 id="diceNumber">0</h1>
+            <button type="button" name="button" class="btn btn-lg btnColor" id="rollBtn" >Roll Dice</button>
+            <button type="button" name="button" class="btn btn-lg btnColor" id="holdBtn">Hold</button>
+          </div>
       </div>
       <div class="col-md-4 gamePlay">
-        <h4>Player 1</h4>
-        <h1 class="TotalResult1">0</h1>
-        <h2 class="roundResult">0</h2>
+        <div class="card">
+          <div class="card-body">
+            <h1>PLAYER 2</h1>
+            <h1 class="totalResult" id="totalResult2">0</h1>
+          </div>
+          <img class="playerImg" src="images/player2.png" alt="Card image">
+          <div class="card-body">
+            <h2>TEMPORARY SCORE</h2>
+            <h2 class="roundResult" id="roundResult2">0</h2>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="row">
+
     </div>
   </div>
 </body>
