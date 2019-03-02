@@ -2,7 +2,7 @@
 to blend with: 1. shades of grey 2. color:#333
 */
 body{
-  background-color: #ffa8b6;
+  background-color: rgb(215,205,208);
 }
 .container{
   margin:0;
@@ -35,4 +35,10 @@ body{
 }
 #gameSection{
   width:100%;
+  margin-top: 2rem;
+}
+#diceRules{
+  color: #ffa8b6;
+  background-color:#333;
+  text-transform: uppercaseS
 }
