@@ -39,9 +39,7 @@
               <li class="list-group-item">The first player to gain 100 points is the winner.</li>
             </ul>
           </div>
-          <div class="card-footer diceRules" id="diceFooter">
-            <h3><a href="">PLAY GAME</a></h3>
-          </div>
+
         </div>
       </div>
       <div class="col-md-4 gamePlay">
@@ -55,14 +53,16 @@
             <h2>TEMPORARY SCORE</h2>
             <h2 class="roundResult" id="roundResult1">0</h2>
           </div>
+          <div class="card-footer diceRules">
+            <button type="button" name="button" class="btn btn-lg btnColor" id="rollBtn1">Roll Dice</button>
+            <button type="button" name="button" class="btn btn-lg btnColor" id="holdBtn1">Hold</button>
+          </div>
         </div>
       </div>
-      <div class="col-md-1" >
-          <div class="d-flex flex-column align-items-center justify-content-center" id="gameBtns">
-            <h1 id="diceNumber">0</h1>
-            <button type="button" name="button" class="btn btn-lg btnColor" id="rollBtn" >Roll Dice</button>
-            <button type="button" name="button" class="btn btn-lg btnColor" id="holdBtn">Hold</button>
-          </div>
+      <div class="col-md-1">
+        <div class="d-flex flex-column align-items-center justify-content-center" id="gameBtns">
+          <h1 id="diceNumber">0</h1>
+        </div>
       </div>
       <div class="col-md-4 gamePlay">
         <div class="card">
@@ -74,6 +74,10 @@
           <div class="card-body">
             <h2>TEMPORARY SCORE</h2>
             <h2 class="roundResult" id="roundResult2">0</h2>
+          </div>
+          <div class="card-footer diceRules">
+            <button type="button" name="button" class="btn btn-lg btnColor" id="rollBtn2">Roll Dice</button>
+            <button type="button" name="button" class="btn btn-lg btnColor" id="holdBtn2">Hold</button>
           </div>
         </div>
       </div>
