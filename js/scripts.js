@@ -17,8 +17,7 @@ Player.prototype.addTotalScore = function() {
 }
 
 function rollDice() {
-  var randomNumber = Math.floor((Math.random() * 6) + 1);
-  return randomNumber;
+  return Math.floor((Math.random() * 6) + 1);
 }
 //function for changing player
 function changePlayer() {
@@ -58,7 +57,7 @@ $(document).ready(function() {
   $("#holdBtn1").click(function(event) {
     event.preventDefault();
     $("#totalResult1").text(player1.addTotalScore());
-    if (player1.totalScore >= 20) {
+    if (player1.totalScore >= 100) {
       alert("Player 1 has won the game. Your Score is ");
     }
     $("#roundResult1").text(0);
@@ -88,8 +87,8 @@ $(document).ready(function() {
   $("#holdBtn2").click(function(event) {
     $("#totalResult2").text(player2.addTotalScore());
     $("#roundResult2").text(0);
-    if (player2.totalScore >= 20) {
-      alert("Player2 has won the game. Your score is "+ player2.totalScore);
+    if (player2.totalScore >= 100) {
+      alert("Player2 has won the game. Your score is " + player2.totalScore);
     }
     rolledNumbers2 = [0];
     changePlayer();
