@@ -1,15 +1,12 @@
-/*#ffa8b6
-to blend with: 1. shades of grey 2. color:#333
-*/
 body {
   background-color: rgb(215, 205, 208);
 }
 
 .container {
-  margin: 0;
+  /* margin: 0;
   width: 100%;
-  max-width: 100%;
-  padding: 0;
+  /* max-width: 100%;
+  padding: 0; */
 }
 
 #header {
@@ -35,6 +32,10 @@ body {
   margin: auto;
 }
 
+#rulesRow {
+  margin-top: 2rem;
+}
+
 #gameSection {
   width: 100%;
   margin-top: 2rem;
@@ -50,6 +51,18 @@ body {
   cursor: pointer;
   color: inherit;
   text-decoration: underline;
+}
+
+#startButton {
+  background-color: #333;
+  color: #ffa8b6;
+}
+
+#gameHeader {
+  margin-top: 2rem;
+  background-color: #333;
+  text-align: center;
+  color: #ffa8b6;
 }
 
 .playerImg {
