@@ -42,7 +42,7 @@ The behavior expected from the application is as shown below in the table:
 
 | Behavior <br> The program should:                       |        Input Example:       | Output Example:                                                                               |
 | :------------------------------------------------------ | :-------------------------: | :-------------------------------------------------------------------------------------------- |
-| Allow the user to roll the dice                         |  Click the roll dice button | The number rolled is shown, for example, 5.                                                                  |
+| Allow the user to roll the dice                         |  Click the roll dice button | The number rolled is shown, for example, 5                                                                  |
 | Display score for each roll of the dice                 |       The user rolls 5      | The scoreboard for the round updates to 5                                                     |
 | Display the score when the user rolls a number of times |   The user rolls  5 then 8  | The scoreboard for the round shows 8                                                          |
 | Alert user if they roll 1                               |         User rolls 1        | Alerts the user that a 1 is rolled and it's the next player's turn                            |
