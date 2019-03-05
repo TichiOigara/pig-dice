@@ -35,6 +35,9 @@ var player2 = new Player(0, 0, 0);
 
 //front-end logic
 $(document).ready(function() {
+  $("#startButton").click(function(){
+    location.reload();
+  });
 
   $("#rollBtn1").click(function(event) {
     event.preventDefault();
