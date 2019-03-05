@@ -1,3 +1,5 @@
+//business-logic
+//constructor for player
 function Player(rolledNumbers, tempScore, totalScore) {
   this.rolledNumbers = rolledNumbers
   this.tempScore = tempScore;
@@ -30,6 +32,8 @@ var rolledNumbers1 = [];
 var rolledNumbers2 = [];
 var player1 = new Player(0, 0, 0);
 var player2 = new Player(0, 0, 0);
+
+//front-end logic
 $(document).ready(function() {
 
   $("#rollBtn1").click(function(event) {
@@ -58,7 +62,8 @@ $(document).ready(function() {
     event.preventDefault();
     $("#totalResult1").text(player1.addTotalScore());
     if (player1.totalScore >= 100) {
-      alert("Player 1 has won the game. Your Score is ");
+      alert("Player 1 has won the game.\n Your Score is " + player1.totalScore);
+      location.reload();
     }
     $("#roundResult1").text(0);
     rolledNumbers1 = [0];
@@ -88,7 +93,8 @@ $(document).ready(function() {
     $("#totalResult2").text(player2.addTotalScore());
     $("#roundResult2").text(0);
     if (player2.totalScore >= 100) {
-      alert("Player2 has won the game. Your score is " + player2.totalScore);
+      alert("Player2 has won the game.\n Your score is " + player2.totalScore);
+      location.reload();
     }
     rolledNumbers2 = [0];
     changePlayer();

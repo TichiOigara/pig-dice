@@ -14,7 +14,9 @@ In order to use this application:Bootstrap
 
 -   Clone or Download the repository to your computer.
 -   To clone repository, use:
+        ```
         git clone https://github.com/TichiOigara/pig-dice.git
+        ```
 -   Open the quiz-board folder and locate the index.html file.
 -   Run the index.html file in a browser of your choice such as Google Chrome.
 
